@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 15, 2023 at 04:48 AM
+-- Generation Time: Jul 15, 2023 at 04:58 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -40,10 +40,8 @@ CREATE TABLE `discussion` (
 --
 
 INSERT INTO `discussion` (`id`, `parent_comment`, `student`, `post`, `date`) VALUES
-(0, '0', 'Nana', 'Is the MIP assessment based on knowledge or what?', '2023-07-14 21:07:14'),
-(0, '0', 'Pulo Nana', 'intern', '2023-07-14 21:49:16'),
-(0, '', 'Mpho', 'Are MIP  internship assessments based on knowledge or experience?', '2023-07-14 21:50:41'),
-(0, '0', 'Pule', 'Not really they just wanna test your knowledge', '2023-07-14 21:51:33');
+(0, '0', 'Mpho', 'Is MIP internship worth it?', '2023-07-15 02:56:10'),
+(0, '0', 'Nana', 'yes it is worth it', '2023-07-15 02:56:41');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
